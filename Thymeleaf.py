@@ -15,10 +15,6 @@ class ThymeleafCompleteEvents(sublime_plugin.EventListener):
 
 			self.completions.append(completion)
 
-	def make_completion(self, trigger, content):
-
-		return (trigger, content)
-
 	#
 	# Autocomplete suggestions
 	#
