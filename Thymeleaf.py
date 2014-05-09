@@ -1,30 +1,19 @@
 import sublime, sublime_plugin
 
-class ThymeleafCommand(sublime_plugin.WindowCommand):
-
-	def run(self, **args):
-
-		print("jdksqfjlk")
-
 class ThymeleafCompleteEvents(sublime_plugin.EventListener):
 
 	completions = []
 
 	def __init__(self):
 
-		print("I see this only once!")
+		thCompletions = [
+			('th:if\tThymeleaf', 'th:if="$1"'),
+			('th:each\tThymeleaf', 'th:each="$1 : $2"'),
+		]
 
-		# Get Sublime completions from the settings file
+		for completion in thCompletions:
 
-		self.sublimeCompletions = sublime.load_settings('Thymeleaf.sublime-completions').get('completions')
-
-		print(self.sublimeCompletions)
-
-		for completion in self.sublimeCompletions:
-
-			_completion = self.make_completion(completion['trigger'], completion['contents'])
-
-			self.completions.append(_completion)
+			self.completions.append(completion)
 
 	def make_completion(self, trigger, content):
 
