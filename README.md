@@ -3,3 +3,133 @@ sublime-thymeleaf
 For now I'm working on:
 
 - Thymeleaf autocomplete
+
+# Thymeleaf Dialect Autocomplete
+
+## Thymeleaf Dialect attributes
+
+- th:include
+- th:replace
+- th:each
+- th:if
+- th:unless
+- th:switch
+- th:case
+- th:object
+- th:with
+- th:attr
+- th:attrprepend
+- th:attrappend
+- th:text
+- th:utext
+- th:fragment
+- th:remove
+- th:inline
+
+## Thymeleaf Dialect HTML attributes
+
+- th:abbr
+- th:accesskey
+- th:alt
+- th:autocomplete
+- th:bgcolor
+- th:cellspacing
+- th:cite
+- th:codebase
+- th:colspan
+- th:contenteditable
+- th:datetime
+- th:dropzone
+- th:form
+- th:formmethod
+- th:frameborder
+- th:high
+- th:hspace
+- th:id
+- th:label
+- th:longdesc
+- th:marginheight
+- th:maxlength
+- th:min
+- th:pattern
+- th:preload
+- th:rev
+- th:rules
+- th:scope
+- th:sizes
+- th:src
+- th:start
+- th:summary
+- th:title
+- th:value
+- th:width
+- th:xmllang
+- th:accept
+- th:action
+- th:archive
+- th:axis
+- th:border
+- th:challenge
+- th:class
+- th:codetype
+- th:compact
+- th:contextmenu
+- th:dir
+- th:enctype
+- th:formaction
+- th:formtarget
+- th:headers
+- th:href- th:http-equiv
+- th:keytype
+- th:lang
+- th:low
+- th:marginwidth
+- th:media
+- th:name
+- th:placeholder
+- th:radiogroup
+- th:rows
+- th:sandbox
+- th:scrolling
+- th:span
+- th:srclang
+- th:step
+- th:tabindex
+- th:type
+- th:valuetype
+- th:wrap
+- th:xmlspace- th:accept-charset
+- th:align
+- th:audio
+- th:background
+- th:cellpadding
+- th:charset
+- th:classid
+- th:cols
+- th:content
+- th:data
+- th:draggable
+- th:for
+- th:formenctype
+- th:frame
+- th:height
+- th:hreflang
+- th:icon
+- th:kind
+- th:list
+- th:manifest
+- th:max
+- th:method
+- th:optimum
+- th:poster
+- th:rel
+- th:rowspan
+- th:scheme
+- th:size
+- th:spellcheck
+- th:standby
+- th:style
+- th:target
+- th:usemap
+- th:vspace
+- th:xmlbase
