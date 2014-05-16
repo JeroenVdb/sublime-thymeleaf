@@ -144,8 +144,10 @@ class ThymeleafCompleteEvents(sublime_plugin.EventListener):
 	#
 	def on_query_completions(self, view, prefix, locations):
 
-		inHtmlTag = view.match_selector(locations[0], 'meta.tag.block.any.html')
+		inHtmlTag = view.match_selector(locations[0], 'text.html.basic, meta.tag.block.any.html, meta.tag.inline.any.html, meta.tag.other.html')
 
-		if inHtmlTag:
+		inAttribute = view.match_selector(locations[0], 'string.quoted.double.html')
+
+		if inHtmlTag and not inAttribute:
 
 			return (self.completions, sublime.INHIBIT_EXPLICIT_COMPLETIONS)
